@@ -11,7 +11,7 @@ from .dump_utils import dump_dotnet_assembly, interpreter_can_dump_pe, probe_tex
 from .logger import setup_logger
 from .version_detection import detect_winlicense_version
 
-# Supported Themida/WinLicense major versions
+# Supported Themida/WinLicense major versions2
 SUPPORTED_VERSIONS = [2, 3]
 LOG = logging.getLogger("unlicense")
 
