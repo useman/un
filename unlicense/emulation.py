@@ -65,7 +65,7 @@ def resolve_wrapped_api(
         # Setup FS/GSBASE
         setup_teb(uc, process_controller)
 
-        # Setup hooks
+        # Setup hooks1
         if expected_ret_addr is None:
             stop_on_ret_addr = STACK_MAGIC_RET_ADDR
         else:
